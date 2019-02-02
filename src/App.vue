@@ -6,6 +6,7 @@
     </el-col>
     <el-col :span="8">
       <h2>编辑区</h2>
+      <Logic />
     </el-col>
     <el-col :span="8">
       <h2>生成代码</h2>
@@ -21,7 +22,7 @@
 import 'codemirror/mode/javascript/javascript.js'
 import "codemirror/lib/codemirror.css";
 
-import Logic from '@/components/Logic';
+import Logic from '@/components/LogicRoot';
 
 export default {
   name: 'app',
